@@ -1,0 +1,20 @@
+# Local Python environment and interpreter artefacts
+.venv/
+__pycache__/
+*.py[cod]
+
+# Downloaded data, derived data, cached market sessions, and generated models
+data/
+outputs/
+
+# Local application settings
+.streamlit/
+
+# Test and coverage artefacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
